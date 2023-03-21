@@ -41,6 +41,10 @@ p{
     line-height: 180%;
 }
 
+ul{
+    list-style: none;
+}
+
 button{
     border:0;
     border-radius: 50px;  
@@ -90,7 +94,6 @@ button.color{
 }
 
 header ul {
-    list-style: none;
     justify-content: center;
     gap: 30px;
 }
@@ -179,24 +182,61 @@ main > section:nth-child(even){
 footer{
     background-color: rgb(34, 39, 42);
     width: 100%;
+    color: white;
+    padding: 60px 0;
 }
 
-footer nav.flex{
-    border-bottom: 2px solid darkgray;
-    margin-bottom: 10px;
+footer div.footer-lingua{
+    flex-basis: 30%;
+    padding-right: 50px;
+    color: rgb(112, 138, 214);
 }
 
-.footer-menu{
-    background-color: darkgray;
-    border: 1px solid black;
-    height: 200px;
-    width: 80px;
-    margin: 30px 0;
+footer div.footer-lingua img{
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
 }
+
+footer div.footer-lingua select{
+    border: 0;
+    background-color: rgb(34, 39, 42);
+    color: white; 
+    outline: 0;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+footer div.icone{
+    color: white;
+    font-size: 20px;
+    /* margin-top: 20px; */
+}
+
+footer i.fa-brands{
+    margin:20px 20px 0 0;
+}
+
+footer div.footer-menu{
+    flex-basis: 70%;
+    justify-content: space-between;
+}
+
+footer li:first-child a{
+    color: rgb(112, 138, 214);
+}
+
+footer div.footer-menu li{
+    margin-bottom: 20px;
+}
+
 
  footer div.flex{
     padding-bottom: 30px;
  }
+
+
+
 
 /* debug */
 
