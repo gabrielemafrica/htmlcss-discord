@@ -126,21 +126,20 @@ header section p{
     /* main corpo */
 
 main > section {
-    padding: 60px 0;
-}
-main section img{
-    height: 200px;
-    width: 50%;
-    background-color: rgb(34, 39, 42);
+    padding: 100px 0;
+
 }
 
-main section .testo-section{
-    width: 45%;
+main section div.section-img{
+    flex-basis: 60%;
 }
 
-main > section:nth-child(2) .flex.center-box{
-    flex-direction: row-reverse;
+main section div.section-txt{
+    flex-basis: 40%;
+    margin-top: 30px;
+    padding-right: 80px;
 }
+
 
 main > section:last-child .flex.center-box{
     flex-direction: column-reverse;
