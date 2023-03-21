@@ -31,6 +31,11 @@ h1{
     margin-bottom: 25px;
 }
 
+h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
 p{
     font-size: 20px;
     line-height: 180%;
@@ -45,7 +50,8 @@ button{
 
 button:hover{
     color: rgb(90, 101, 234);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2)  ;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 button.dark{
@@ -53,14 +59,13 @@ button.dark{
     color: white;
 }
 
+button.color{
+    background-color: rgb(112, 138, 214);
+    color: white;
+}
 
 
 .flex{
-    display: flex;
-    justify-content: space-between;
-}
-
-.flex-no-space{
     display: flex;
 }
 
@@ -139,13 +144,29 @@ main section div.section-txt{
     margin-top: 30px;
     padding-right: 80px;
 }
+  
+    /* sezione bottom */
 
-
-main > section:last-child .flex.center-box{
-    flex-direction: column-reverse;
+main section.main-bottom{
     text-align: center;
-    min-height: 600px;
 }
+
+.main-bottom-txt{
+    margin-top: 30px;
+    padding: 0 90px;
+}
+
+main section img.main-bottom-img{
+    width: 100%;
+}
+.sfondo-star{
+    display: inline-block;
+    padding: 40px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 
 
 main > section:nth-child(even){
